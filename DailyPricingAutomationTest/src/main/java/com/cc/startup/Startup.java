@@ -24,7 +24,7 @@ public class Startup  {
 @BeforeClass(enabled= true)
 public void copytestcaseforexe() throws IOException {
 	 System.out.println("under before class..");
-	UtilServices utilServices = new UtilServices();
+	new UtilServices();
 	  File testcaserepo = new File(".\\Repo");
       File testcaseexe = new File(".\\Testcases");
        UtilServices.copyFolder(testcaserepo, testcaseexe);
@@ -33,7 +33,7 @@ public void copytestcaseforexe() throws IOException {
 @AfterClass(enabled= true)
 public  void MovetestReportoarchive() throws IOException {
 	 System.out.println("under afer class..");
-	 UtilServices utilServices = new UtilServices();
+	 new UtilServices();
 	File sourceFolder = new File(".\\Testcases");
     Date now = new Date();
 	 SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yy hh mm ss");

@@ -23,16 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Ankit-WorkArea-Automation/GithubProjects/GitWorkspace_i2o_Dailyfeed/DailyPricingAutomationTest/junit-4.8.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Test/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar" sourcepath="C:/Users/Test/.m2/repository/junit/junit/4.8.2/junit-4.8.2-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="junit"/>
-			<attribute name="maven.artifactId" value="junit"/>
-			<attribute name="maven.version" value="4.8.2"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Ankit-WorkArea-Automation/GithubProjects/GitWorkspace_i2o_Dailyfeed/DailyPricingAutomationTest/junit-4.13.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
