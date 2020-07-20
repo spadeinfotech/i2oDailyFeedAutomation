@@ -1,0 +1,29 @@
+[RemoteTestNG] detected TestNG version 6.9.9
+[TestNG] Running:
+  C:\Users\Test\AppData\Local\Temp\testng-eclipse--463835654\testng-customsuite.xml
+
+********************Test Is running for:-i2o-dev-ausgold**********************************
+********************Executing TestCases for:-DailyPricingTest3P***************************
+Executing prestgae queries..
+Executing Mart queries..
+i2o-dev-ausgold|:- Mismatch found for B01MECR54A
+i2o-dev-ausgold|:- Mismatch found for B00CXW18PE
+PASSED: RuntestSuite
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2d554825: 141 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@52af6cff: 6 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@327471b5: 59 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 0 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@34b7bfc0: 6 ms
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@36f6e879: 7 ms

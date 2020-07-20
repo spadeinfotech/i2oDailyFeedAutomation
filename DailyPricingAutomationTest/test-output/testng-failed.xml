@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [i2o Daily Feeds Automation]">
+  <test name="i2o Daily feeds sanity testing(failed)">
+    <classes>
+      <class name="com.cc.startup.Startup">
+        <methods>
+          <include name="MovetestReportoarchive"/>
+          <include name="RuntestSuite"/>
+          <include name="copytestcaseforexe"/>
+        </methods>
+      </class> <!-- com.cc.startup.Startup -->
+    </classes>
+  </test> <!-- i2o Daily feeds sanity testing(failed) -->
+</suite> <!-- Failed suite [i2o Daily Feeds Automation] -->
