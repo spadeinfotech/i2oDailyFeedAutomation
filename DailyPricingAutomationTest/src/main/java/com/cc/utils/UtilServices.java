@@ -6,6 +6,7 @@ import java.util.Scanner;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.runner.JUnitCore;
+
 import com.cc.filereader.ReadWER;
 import com.cc.readexcel.ExcelLibrary;
 import com.cc.startup.Startup;
@@ -15,6 +16,18 @@ import com.google.common.io.Files;
 public class UtilServices extends Startup {
 	static ReadWER wer = new ReadWER();
 
+
+public static void callTestcases() throws ClassNotFoundException {
+
+		 JUnitCore runTest = new JUnitCore();
+		  Class c;
+	c = Class.forName("com.cc.testcases."+scenarioname);
+	   //System.out.println("Running tescase:-"+c);
+			runTest.run(c);
+	}
+	
+	
+	
 	
 public static boolean isNumeric(String preval, String martval) {
     if (preval == null && martval== null ) {
@@ -24,11 +37,7 @@ public static boolean isNumeric(String preval, String martval) {
 	        double a = Double.parseDouble(preval);
 	        double b= Double.parseDouble(martval);
 	       
-	        
-	      
-	        
-	        
-	     // System.out.println("diff=="+a-b);
+   // System.out.println("diff=="+a-b);
 	 
 	    } catch (NumberFormatException nfe) {
 	        return false;
@@ -165,14 +174,6 @@ public void getPreAndMartDiff(String scenarioname, ExcelLibrary lib) throws Encr
 	}
 	
 	
-public static void callTestcases() throws ClassNotFoundException {
-
-	 JUnitCore runTest = new JUnitCore();
-	  Class c;
-c = Class.forName("com.cc.testcases."+scenarioname);
-   //System.out.println("Running tescase:-"+c);
-		runTest.run(c);
-}
 
 
 
