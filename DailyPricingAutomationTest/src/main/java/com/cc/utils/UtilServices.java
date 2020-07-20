@@ -12,14 +12,11 @@ import com.cc.readexcel.ExcelLibrary;
 import com.cc.startup.Startup;
 import com.google.common.io.Files;
 
-
 public class UtilServices extends Startup {
 	static ReadWER wer = new ReadWER();
 
-
 public static void callTestcases() throws ClassNotFoundException {
-
-		 JUnitCore runTest = new JUnitCore();
+JUnitCore runTest = new JUnitCore();
 		  Class c;
 	c = Class.forName("com.cc.testcases."+scenarioname);
 	   //System.out.println("Running tescase:-"+c);
