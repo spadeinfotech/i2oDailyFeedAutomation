@@ -14,16 +14,6 @@ import com.google.common.io.Files;
 
 public class UtilServices extends Startup {
 	static ReadWER wer = new ReadWER();
-public static void callTestcases() throws ClassNotFoundException   {
-JUnitCore runTest = new JUnitCore();
-		  Class c;
-	c = Class.forName("com.cc.testcases."+scenarioname);
-	   //System.out.println("Running tescase:-"+c);
-			runTest.run(c);
-	}
-	
-	
-	
 	
 public static boolean isNumeric(String preval, String martval) {
     if (preval == null && martval== null ) {
@@ -40,6 +30,14 @@ public static boolean isNumeric(String preval, String martval) {
 	    }
 	    return true;
 	}	
+public static void callTestcases() throws ClassNotFoundException   {
+JUnitCore runTest = new JUnitCore();
+		  @SuppressWarnings("rawtypes")
+		Class c;
+	c = Class.forName("com.cc.testcases."+scenarioname);
+	   //System.out.println("Running tescase:-"+c);
+			runTest.run(c);
+	}
 	
 public void deletefolder() {
 	 File dest=new File(".\\Testcases\\as");
