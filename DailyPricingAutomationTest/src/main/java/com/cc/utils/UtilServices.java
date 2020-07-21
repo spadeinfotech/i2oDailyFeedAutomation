@@ -152,7 +152,7 @@ public void getPreAndMartDiff(String scenarioname, ExcelLibrary lib) throws Encr
 
 	} else  {
 		lib.setExcelValueGeneric(scenarioname, teststep, 8, "Fail",file);
-		System.out.println("not matching condition");
+		//System.out.println("not matching condition");
 		
 		System.out.println( queryLogicalName+" "+"is getting failed for="+Clientid);
 	//	System.out.println("MisMatch in Prestgae and Mart Data="+countdifference);

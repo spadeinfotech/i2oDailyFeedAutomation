@@ -23,7 +23,7 @@ public class Startup  {
 	
 @BeforeClass(enabled= true)
 public void copytestcaseforexe() throws IOException {
-	 System.out.println("under before class..");
+	 //System.out.println("under before class..");
 	new UtilServices();
 	  File testcaserepo = new File(".\\Repo");
       File testcaseexe = new File(".\\Testcases");
@@ -32,7 +32,7 @@ public void copytestcaseforexe() throws IOException {
 
 @AfterClass(enabled= true)
 public  void MovetestReportoarchive() throws IOException {
-	 System.out.println("under afer class..");
+	// System.out.println("under afer class..");
 	 new UtilServices();
 	File sourceFolder = new File(".\\Testcases");
     Date now = new Date();
