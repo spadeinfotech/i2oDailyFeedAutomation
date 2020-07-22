@@ -1,8 +1,120 @@
 [RemoteTestNG] detected TestNG version 6.9.9
 [TestNG] Running:
-  C:\Users\Test\AppData\Local\Temp\testng-eclipse-1419782979\testng-customsuite.xml
+  C:\Users\Test\AppData\Local\Temp\testng-eclipse--1091216892\testng-customsuite.xml
 
-under before class..
-********************Test Is running for:-i2o-dev-su**********************************
+********************Test Is running for:-i2o-dev-jvc**********************************
+********************Executing TestCases for:-DateChecks***************************
+Executing prestgae queries..
+Executing mart queries..
 ********************Executing TestCases for:-DailyPricingTest***************************
 Executing prestgae queries..
+Executing mart queries..
+DAILY_BBXWINNER is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_BBXWINNERPRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_NEWEGG_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_WALMART_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_BESTBUY_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_BHPPHOTOVIDEO_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_AMAZONBBX_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+LAST7_DAYS_BBXWINNER is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+LAST30_DAYS_RESELLERS is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+LAST7_DAYS_LOWALERTCOUNT is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+LAST30_DAYS_LOWALERTCOUNT is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+DAILY_LISTING_RESELLEROFFERS is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PAP_NEWEGG_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PAP_WALMART_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PAP_BESTBUY_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PAP_BHPPHOTOVIDEO_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PAP_AMAZON_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PAP_AMAZONBBX_PRICE is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+ is getting failed for=i2o-dev-jvc
+PASSED: RuntestSuite
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@3551a94: 33 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@90f6bfd: 104 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 0 ms
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6be46e8f: 235 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@6df97b55: 8 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2c9f9fb0: 19 ms
