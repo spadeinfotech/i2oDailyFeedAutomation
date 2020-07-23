@@ -21,7 +21,7 @@ public class DailyPricingTest3P {
 	public UtilServices utilServices = new UtilServices();
 	@Test
 	public void test() throws EncryptedDocumentException, InvalidFormatException, IOException, InterruptedException {
-		 System.out.println("under  DailyPricingTest3P test");
+		// System.out.println("under  DailyPricingTest3P test");
 			Testexecutor Te=new Testexecutor();
 			 System.out.println("Executing prestgae queries..");
 		Te.getAllcolumnsPrestage(this.getClass().getSimpleName());
