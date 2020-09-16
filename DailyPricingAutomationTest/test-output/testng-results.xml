@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="275472" started-at="2020-07-22T15:35:01Z" finished-at="2020-07-22T15:39:37Z">
+  <suite name="Default suite" duration-ms="68822" started-at="2020-09-16T17:48:49Z" finished-at="2020-09-16T17:49:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="275472" started-at="2020-07-22T15:35:01Z" finished-at="2020-07-22T15:39:37Z">
+    <test name="Default test" duration-ms="68822" started-at="2020-09-16T17:48:49Z" finished-at="2020-09-16T17:49:58Z">
       <class name="com.cc.startup.Startup">
-        <test-method status="PASS" signature="copytestcaseforexe()[pri:0, instance:com.cc.startup.Startup@4566e5bd]" name="copytestcaseforexe" is-config="true" duration-ms="59" started-at="2020-07-22T21:05:01Z" finished-at="2020-07-22T21:05:01Z">
+        <test-method status="PASS" signature="copytestcaseforexe()[pri:0, instance:com.cc.startup.Startup@4566e5bd]" name="copytestcaseforexe" is-config="true" duration-ms="90" started-at="2020-09-16T23:18:49Z" finished-at="2020-09-16T23:18:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copytestcaseforexe -->
-        <test-method status="PASS" signature="RuntestSuite()[pri:0, instance:com.cc.startup.Startup@4566e5bd]" name="RuntestSuite" duration-ms="275218" started-at="2020-07-22T21:05:01Z" finished-at="2020-07-22T21:09:36Z">
+        <test-method status="PASS" signature="RuntestSuite()[pri:0, instance:com.cc.startup.Startup@4566e5bd]" name="RuntestSuite" duration-ms="68613" started-at="2020-09-16T23:18:49Z" finished-at="2020-09-16T23:19:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RuntestSuite -->
-        <test-method status="PASS" signature="MovetestReportoarchive()[pri:0, instance:com.cc.startup.Startup@4566e5bd]" name="MovetestReportoarchive" is-config="true" duration-ms="178" started-at="2020-07-22T21:09:36Z" finished-at="2020-07-22T21:09:37Z">
+        <test-method status="PASS" signature="MovetestReportoarchive()[pri:0, instance:com.cc.startup.Startup@4566e5bd]" name="MovetestReportoarchive" is-config="true" duration-ms="94" started-at="2020-09-16T23:19:58Z" finished-at="2020-09-16T23:19:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MovetestReportoarchive -->
