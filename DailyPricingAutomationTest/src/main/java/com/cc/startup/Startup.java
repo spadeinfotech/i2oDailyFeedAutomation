@@ -159,10 +159,104 @@ lib.setExcelValueGeneric("TestModules", testscenario, 2, lib.getdateandtime(),fi
 		  	}			
 	}	  
 	  
+else if(Clientid.equals("i2o-dev-ossur"))	{
+	  file=".\\Testcases\\i2o_TestReport_ossur.xlsx";
+totaltests = lib.Getrowcountgeneric("TestModules",file);
+		  for(int testscenario=1;testscenario<=totaltests;testscenario++) {
+String scenariosexecutionstatus=lib.getExcelValuegeneric("TestModules", testscenario, 1,file);
+		  	if(scenariosexecutionstatus.equalsIgnoreCase("yes")) {
+		  scenarioname=lib.getExcelValueGeneric("TestModules", testscenario, 0,file);
+System.out.println("********************Executing TestCases for:-"+scenarioname+"***************************");
+		  UtilServices.callTestcases();
+lib.setExcelValueGeneric("TestModules", testscenario, 2, lib.getdateandtime(),file);
+
+		  }
+		  	
+		  	}			
+	}	  
+else if(Clientid.equals("i2o-preprod-mycharge"))	{
+	  file=".\\Testcases\\i2o_TestReport_mycharge.xlsx";
+totaltests = lib.Getrowcountgeneric("TestModules",file);
+		  for(int testscenario=1;testscenario<=totaltests;testscenario++) {
+String scenariosexecutionstatus=lib.getExcelValuegeneric("TestModules", testscenario, 1,file);
+		  	if(scenariosexecutionstatus.equalsIgnoreCase("yes")) {
+		  scenarioname=lib.getExcelValueGeneric("TestModules", testscenario, 0,file);
+System.out.println("********************Executing TestCases for:-"+scenarioname+"***************************");
+		  UtilServices.callTestcases();
+lib.setExcelValueGeneric("TestModules", testscenario, 2, lib.getdateandtime(),file);
+
+		  }
+		  	
+		  	}			
+	}	  	  
 	  
-	  
-	  
-	  
+else if(Clientid.equals("i2o-preprod-interaxon"))	{
+	  file=".\\Testcases\\i2o_TestReport_interaxon.xlsx";
+totaltests = lib.Getrowcountgeneric("TestModules",file);
+		  for(int testscenario=1;testscenario<=totaltests;testscenario++) {
+String scenariosexecutionstatus=lib.getExcelValuegeneric("TestModules", testscenario, 1,file);
+		  	if(scenariosexecutionstatus.equalsIgnoreCase("yes")) {
+		  scenarioname=lib.getExcelValueGeneric("TestModules", testscenario, 0,file);
+System.out.println("********************Executing TestCases for:-"+scenarioname+"***************************");
+		  UtilServices.callTestcases();
+lib.setExcelValueGeneric("TestModules", testscenario, 2, lib.getdateandtime(),file);
+
+		  }
+		  	
+		  	}			
+	}	  
+else if(Clientid.equals("i2o-dev-ffl"))	{
+	  file=".\\Testcases\\i2o_TestReport_ffl.xlsx";
+totaltests = lib.Getrowcountgeneric("TestModules",file);
+		  for(int testscenario=1;testscenario<=totaltests;testscenario++) {
+String scenariosexecutionstatus=lib.getExcelValuegeneric("TestModules", testscenario, 1,file);
+		  	if(scenariosexecutionstatus.equalsIgnoreCase("yes")) {
+		  scenarioname=lib.getExcelValueGeneric("TestModules", testscenario, 0,file);
+System.out.println("********************Executing TestCases for:-"+scenarioname+"***************************");
+		  UtilServices.callTestcases();
+lib.setExcelValueGeneric("TestModules", testscenario, 2, lib.getdateandtime(),file);
+
+		  }
+		  	
+		  	}			
+	}		
+else if(Clientid.equals("i2o-preprod-talkworks"))	{
+	  file=".\\Testcases\\i2o_TestReport_talkworks.xlsx";
+totaltests = lib.Getrowcountgeneric("TestModules",file);
+		  for(int testscenario=1;testscenario<=totaltests;testscenario++) {
+String scenariosexecutionstatus=lib.getExcelValuegeneric("TestModules", testscenario, 1,file);
+		  	if(scenariosexecutionstatus.equalsIgnoreCase("yes")) {
+		  scenarioname=lib.getExcelValueGeneric("TestModules", testscenario, 0,file);
+System.out.println("********************Executing TestCases for:-"+scenarioname+"***************************");
+		  UtilServices.callTestcases();
+lib.setExcelValueGeneric("TestModules", testscenario, 2, lib.getdateandtime(),file);
+
+		  }
+		  	
+		  	}			
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	  
 	  
 	  
